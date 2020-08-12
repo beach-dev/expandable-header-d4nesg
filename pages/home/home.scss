@@ -1,0 +1,37 @@
+expandable-header {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
+
+  img {
+    border-radius: 50%;
+    width: 75px;
+    height: auto;
+  }
+}
+
+ion-header {
+  background-image: url('https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+ion-item {
+  width: 92%;
+  margin: 4%;
+  padding-left: 10px !important;
+  margin-bottom: 10px;
+  background-color: #fff;
+  opacity: 0.7;
+  font-size: 0.9em;
+  transition: 0.2s linear;
+}
+
+.toolbar-md-dark .toolbar-background-md {
+  background-color: transparent !important;
+}
